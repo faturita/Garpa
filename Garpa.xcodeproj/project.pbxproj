@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EBD8EACB73BC4ABE9B22B7A /* libPods-Garpa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C05716F1BB7D6049D03B9F /* libPods-Garpa.a */; };
+		2FC4710441FBB17E2437B9B8 /* libPods-GarpaUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1989300873221B818CA60077 /* libPods-GarpaUITests.a */; };
+		31197AFFAD7FD824B1772FD1 /* libPods-GarpaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 199D172C1E8EF0204B39125C /* libPods-GarpaTests.a */; };
+		62203B24224477D200154B38 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62203B23224477D200154B38 /* LoginViewController.m */; };
+		62203B27224487F700154B38 /* StockCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62203B26224487F700154B38 /* StockCellTableViewCell.m */; };
+		625AA400224139BC001CF9E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 625AA3FF224139BC001CF9E6 /* AppDelegate.m */; };
+		625AA403224139BC001CF9E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625AA402224139BC001CF9E6 /* ViewController.m */; };
+		625AA406224139BC001CF9E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 625AA404224139BC001CF9E6 /* Main.storyboard */; };
+		625AA408224139BE001CF9E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 625AA407224139BE001CF9E6 /* Assets.xcassets */; };
+		625AA40B224139BE001CF9E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 625AA409224139BE001CF9E6 /* LaunchScreen.storyboard */; };
+		625AA40E224139BE001CF9E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 625AA40D224139BE001CF9E6 /* main.m */; };
+		625AA418224139BE001CF9E6 /* GarpaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 625AA417224139BE001CF9E6 /* GarpaTests.m */; };
+		625AA423224139BE001CF9E6 /* GarpaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 625AA422224139BE001CF9E6 /* GarpaUITests.m */; };
+		625AA43222413DA1001CF9E6 /* NSWSAsyncConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 625AA43122413DA1001CF9E6 /* NSWSAsyncConsumer.m */; };
+		625AA43822413E82001CF9E6 /* Quote.m in Sources */ = {isa = PBXBuildFile; fileRef = 625AA43622413E82001CF9E6 /* Quote.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		625AA414224139BE001CF9E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 625AA3F3224139BC001CF9E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 625AA3FA224139BC001CF9E6;
+			remoteInfo = Garpa;
+		};
+		625AA41F224139BE001CF9E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 625AA3F3224139BC001CF9E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 625AA3FA224139BC001CF9E6;
+			remoteInfo = Garpa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09F1907CDF510D83AC73E4A1 /* Pods-GarpaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GarpaUITests.debug.xcconfig"; path = "Target Support Files/Pods-GarpaUITests/Pods-GarpaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1989300873221B818CA60077 /* libPods-GarpaUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GarpaUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		199D172C1E8EF0204B39125C /* libPods-GarpaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GarpaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2063228984AEE106DB69196A /* Pods-GarpaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GarpaTests.debug.xcconfig"; path = "Target Support Files/Pods-GarpaTests/Pods-GarpaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		257C7A3CD527BD72907120F1 /* Pods-Garpa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Garpa.debug.xcconfig"; path = "Target Support Files/Pods-Garpa/Pods-Garpa.debug.xcconfig"; sourceTree = "<group>"; };
+		62203B22224477D200154B38 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		62203B23224477D200154B38 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		62203B25224487F700154B38 /* StockCellTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StockCellTableViewCell.h; sourceTree = "<group>"; };
+		62203B26224487F700154B38 /* StockCellTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockCellTableViewCell.m; sourceTree = "<group>"; };
+		625AA3FB224139BC001CF9E6 /* Garpa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Garpa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		625AA3FE224139BC001CF9E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		625AA3FF224139BC001CF9E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		625AA401224139BC001CF9E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		625AA402224139BC001CF9E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		625AA405224139BC001CF9E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		625AA407224139BE001CF9E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		625AA40A224139BE001CF9E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		625AA40C224139BE001CF9E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		625AA40D224139BE001CF9E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		625AA413224139BE001CF9E6 /* GarpaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GarpaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		625AA417224139BE001CF9E6 /* GarpaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GarpaTests.m; sourceTree = "<group>"; };
+		625AA419224139BE001CF9E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		625AA41E224139BE001CF9E6 /* GarpaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GarpaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		625AA422224139BE001CF9E6 /* GarpaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GarpaUITests.m; sourceTree = "<group>"; };
+		625AA424224139BE001CF9E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		625AA43022413DA1001CF9E6 /* NSWSAsyncConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSWSAsyncConsumer.h; sourceTree = "<group>"; };
+		625AA43122413DA1001CF9E6 /* NSWSAsyncConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSWSAsyncConsumer.m; sourceTree = "<group>"; };
+		625AA43522413E82001CF9E6 /* Quote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quote.h; sourceTree = "<group>"; };
+		625AA43622413E82001CF9E6 /* Quote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quote.m; sourceTree = "<group>"; };
+		D6C05716F1BB7D6049D03B9F /* libPods-Garpa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Garpa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9FA2867394A2D612329D2E3 /* Pods-GarpaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GarpaUITests.release.xcconfig"; path = "Target Support Files/Pods-GarpaUITests/Pods-GarpaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F65B29B86934B310EF1637A2 /* Pods-GarpaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GarpaTests.release.xcconfig"; path = "Target Support Files/Pods-GarpaTests/Pods-GarpaTests.release.xcconfig"; sourceTree = "<group>"; };
+		FADFB733097DDADFCC510D78 /* Pods-Garpa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Garpa.release.xcconfig"; path = "Target Support Files/Pods-Garpa/Pods-Garpa.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		625AA3F8224139BC001CF9E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBD8EACB73BC4ABE9B22B7A /* libPods-Garpa.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625AA410224139BE001CF9E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31197AFFAD7FD824B1772FD1 /* libPods-GarpaTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625AA41B224139BE001CF9E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC4710441FBB17E2437B9B8 /* libPods-GarpaUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1265F7B2D793D9EF42AA7681 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6C05716F1BB7D6049D03B9F /* libPods-Garpa.a */,
+				199D172C1E8EF0204B39125C /* libPods-GarpaTests.a */,
+				1989300873221B818CA60077 /* libPods-GarpaUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		625AA3F2224139BC001CF9E6 = {
+			isa = PBXGroup;
+			children = (
+				625AA3FD224139BC001CF9E6 /* Garpa */,
+				625AA416224139BE001CF9E6 /* GarpaTests */,
+				625AA421224139BE001CF9E6 /* GarpaUITests */,
+				625AA3FC224139BC001CF9E6 /* Products */,
+				9D02568E2CC67EB42A567DB9 /* Pods */,
+				1265F7B2D793D9EF42AA7681 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		625AA3FC224139BC001CF9E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				625AA3FB224139BC001CF9E6 /* Garpa.app */,
+				625AA413224139BE001CF9E6 /* GarpaTests.xctest */,
+				625AA41E224139BE001CF9E6 /* GarpaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		625AA3FD224139BC001CF9E6 /* Garpa */ = {
+			isa = PBXGroup;
+			children = (
+				625AA43022413DA1001CF9E6 /* NSWSAsyncConsumer.h */,
+				625AA43122413DA1001CF9E6 /* NSWSAsyncConsumer.m */,
+				625AA3FE224139BC001CF9E6 /* AppDelegate.h */,
+				625AA3FF224139BC001CF9E6 /* AppDelegate.m */,
+				62203B25224487F700154B38 /* StockCellTableViewCell.h */,
+				62203B26224487F700154B38 /* StockCellTableViewCell.m */,
+				62203B22224477D200154B38 /* LoginViewController.h */,
+				62203B23224477D200154B38 /* LoginViewController.m */,
+				625AA401224139BC001CF9E6 /* ViewController.h */,
+				625AA402224139BC001CF9E6 /* ViewController.m */,
+				625AA404224139BC001CF9E6 /* Main.storyboard */,
+				625AA407224139BE001CF9E6 /* Assets.xcassets */,
+				625AA409224139BE001CF9E6 /* LaunchScreen.storyboard */,
+				625AA40C224139BE001CF9E6 /* Info.plist */,
+				625AA40D224139BE001CF9E6 /* main.m */,
+				625AA43522413E82001CF9E6 /* Quote.h */,
+				625AA43622413E82001CF9E6 /* Quote.m */,
+			);
+			path = Garpa;
+			sourceTree = "<group>";
+		};
+		625AA416224139BE001CF9E6 /* GarpaTests */ = {
+			isa = PBXGroup;
+			children = (
+				625AA417224139BE001CF9E6 /* GarpaTests.m */,
+				625AA419224139BE001CF9E6 /* Info.plist */,
+			);
+			path = GarpaTests;
+			sourceTree = "<group>";
+		};
+		625AA421224139BE001CF9E6 /* GarpaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				625AA422224139BE001CF9E6 /* GarpaUITests.m */,
+				625AA424224139BE001CF9E6 /* Info.plist */,
+			);
+			path = GarpaUITests;
+			sourceTree = "<group>";
+		};
+		9D02568E2CC67EB42A567DB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				257C7A3CD527BD72907120F1 /* Pods-Garpa.debug.xcconfig */,
+				FADFB733097DDADFCC510D78 /* Pods-Garpa.release.xcconfig */,
+				2063228984AEE106DB69196A /* Pods-GarpaTests.debug.xcconfig */,
+				F65B29B86934B310EF1637A2 /* Pods-GarpaTests.release.xcconfig */,
+				09F1907CDF510D83AC73E4A1 /* Pods-GarpaUITests.debug.xcconfig */,
+				D9FA2867394A2D612329D2E3 /* Pods-GarpaUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		625AA3FA224139BC001CF9E6 /* Garpa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 625AA427224139BE001CF9E6 /* Build configuration list for PBXNativeTarget "Garpa" */;
+			buildPhases = (
+				28760AFEF478B983B9A4BCF4 /* [CP] Check Pods Manifest.lock */,
+				625AA3F7224139BC001CF9E6 /* Sources */,
+				625AA3F8224139BC001CF9E6 /* Frameworks */,
+				625AA3F9224139BC001CF9E6 /* Resources */,
+				ED698E5FE7D053ED50A2C2C9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Garpa;
+			productName = Garpa;
+			productReference = 625AA3FB224139BC001CF9E6 /* Garpa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		625AA412224139BE001CF9E6 /* GarpaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 625AA42A224139BE001CF9E6 /* Build configuration list for PBXNativeTarget "GarpaTests" */;
+			buildPhases = (
+				C7F0226261AA9A7E2F68D150 /* [CP] Check Pods Manifest.lock */,
+				625AA40F224139BE001CF9E6 /* Sources */,
+				625AA410224139BE001CF9E6 /* Frameworks */,
+				625AA411224139BE001CF9E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				625AA415224139BE001CF9E6 /* PBXTargetDependency */,
+			);
+			name = GarpaTests;
+			productName = GarpaTests;
+			productReference = 625AA413224139BE001CF9E6 /* GarpaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		625AA41D224139BE001CF9E6 /* GarpaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 625AA42D224139BE001CF9E6 /* Build configuration list for PBXNativeTarget "GarpaUITests" */;
+			buildPhases = (
+				FD08633086E7F41740E1A94A /* [CP] Check Pods Manifest.lock */,
+				625AA41A224139BE001CF9E6 /* Sources */,
+				625AA41B224139BE001CF9E6 /* Frameworks */,
+				625AA41C224139BE001CF9E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				625AA420224139BE001CF9E6 /* PBXTargetDependency */,
+			);
+			name = GarpaUITests;
+			productName = GarpaUITests;
+			productReference = 625AA41E224139BE001CF9E6 /* GarpaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		625AA3F3224139BC001CF9E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Baufest;
+				TargetAttributes = {
+					625AA3FA224139BC001CF9E6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					625AA412224139BE001CF9E6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 625AA3FA224139BC001CF9E6;
+					};
+					625AA41D224139BE001CF9E6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 625AA3FA224139BC001CF9E6;
+					};
+				};
+			};
+			buildConfigurationList = 625AA3F6224139BC001CF9E6 /* Build configuration list for PBXProject "Garpa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 625AA3F2224139BC001CF9E6;
+			productRefGroup = 625AA3FC224139BC001CF9E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				625AA3FA224139BC001CF9E6 /* Garpa */,
+				625AA412224139BE001CF9E6 /* GarpaTests */,
+				625AA41D224139BE001CF9E6 /* GarpaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		625AA3F9224139BC001CF9E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625AA40B224139BE001CF9E6 /* LaunchScreen.storyboard in Resources */,
+				625AA408224139BE001CF9E6 /* Assets.xcassets in Resources */,
+				625AA406224139BC001CF9E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625AA411224139BE001CF9E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625AA41C224139BE001CF9E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28760AFEF478B983B9A4BCF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Garpa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7F0226261AA9A7E2F68D150 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GarpaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED698E5FE7D053ED50A2C2C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Garpa/Pods-Garpa-resources.sh",
+				"${PODS_ROOT}/SSKeychain/Support/SSKeychain.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SSKeychain.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Garpa/Pods-Garpa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD08633086E7F41740E1A94A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GarpaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		625AA3F7224139BC001CF9E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62203B27224487F700154B38 /* StockCellTableViewCell.m in Sources */,
+				625AA43822413E82001CF9E6 /* Quote.m in Sources */,
+				625AA403224139BC001CF9E6 /* ViewController.m in Sources */,
+				62203B24224477D200154B38 /* LoginViewController.m in Sources */,
+				625AA40E224139BE001CF9E6 /* main.m in Sources */,
+				625AA400224139BC001CF9E6 /* AppDelegate.m in Sources */,
+				625AA43222413DA1001CF9E6 /* NSWSAsyncConsumer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625AA40F224139BE001CF9E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625AA418224139BE001CF9E6 /* GarpaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625AA41A224139BE001CF9E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625AA423224139BE001CF9E6 /* GarpaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		625AA415224139BE001CF9E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 625AA3FA224139BC001CF9E6 /* Garpa */;
+			targetProxy = 625AA414224139BE001CF9E6 /* PBXContainerItemProxy */;
+		};
+		625AA420224139BE001CF9E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 625AA3FA224139BC001CF9E6 /* Garpa */;
+			targetProxy = 625AA41F224139BE001CF9E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		625AA404224139BC001CF9E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				625AA405224139BC001CF9E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		625AA409224139BE001CF9E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				625AA40A224139BE001CF9E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		625AA425224139BE001CF9E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		625AA426224139BE001CF9E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		625AA428224139BE001CF9E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 257C7A3CD527BD72907120F1 /* Pods-Garpa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6ZL23P7MP;
+				INFOPLIST_FILE = Garpa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baufest.Garpa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		625AA429224139BE001CF9E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FADFB733097DDADFCC510D78 /* Pods-Garpa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6ZL23P7MP;
+				INFOPLIST_FILE = Garpa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baufest.Garpa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		625AA42B224139BE001CF9E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2063228984AEE106DB69196A /* Pods-GarpaTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6ZL23P7MP;
+				INFOPLIST_FILE = GarpaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baufest.GarpaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Garpa.app/Garpa";
+			};
+			name = Debug;
+		};
+		625AA42C224139BE001CF9E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F65B29B86934B310EF1637A2 /* Pods-GarpaTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6ZL23P7MP;
+				INFOPLIST_FILE = GarpaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baufest.GarpaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Garpa.app/Garpa";
+			};
+			name = Release;
+		};
+		625AA42E224139BE001CF9E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09F1907CDF510D83AC73E4A1 /* Pods-GarpaUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6ZL23P7MP;
+				INFOPLIST_FILE = GarpaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baufest.GarpaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Garpa;
+			};
+			name = Debug;
+		};
+		625AA42F224139BE001CF9E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9FA2867394A2D612329D2E3 /* Pods-GarpaUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6ZL23P7MP;
+				INFOPLIST_FILE = GarpaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baufest.GarpaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Garpa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		625AA3F6224139BC001CF9E6 /* Build configuration list for PBXProject "Garpa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625AA425224139BE001CF9E6 /* Debug */,
+				625AA426224139BE001CF9E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		625AA427224139BE001CF9E6 /* Build configuration list for PBXNativeTarget "Garpa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625AA428224139BE001CF9E6 /* Debug */,
+				625AA429224139BE001CF9E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		625AA42A224139BE001CF9E6 /* Build configuration list for PBXNativeTarget "GarpaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625AA42B224139BE001CF9E6 /* Debug */,
+				625AA42C224139BE001CF9E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		625AA42D224139BE001CF9E6 /* Build configuration list for PBXNativeTarget "GarpaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625AA42E224139BE001CF9E6 /* Debug */,
+				625AA42F224139BE001CF9E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 625AA3F3224139BC001CF9E6 /* Project object */;
+}
